@@ -1,8 +1,8 @@
 class User < ApplicationRecord
     
-    # validates :name, {presence: true}
-    # validates :email, {presence: true}
-    # validates :password, {presence: true}
+    validates :name, {presence: true}
+    validates :email, {presence: true}
+    validates :password, {presence: true}
     # validates :residence, {presence: true}
     # validates :profile, {presence: true}
     
